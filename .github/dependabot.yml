@@ -1,0 +1,8 @@
+  # Example dependabot.yml
+    version: 2
+    updates:
+      - package-ecosystem: "npm" # or "bundler", "maven", "pip", etc.
+        directory: "/"
+        schedule:
+          interval: "weekly" # or "daily", "monthly"
+        open-pull-requests-limit: 10 # Adjust the number of open PRs allowed
